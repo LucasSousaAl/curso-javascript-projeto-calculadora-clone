@@ -40,6 +40,23 @@ class CalcController{
 
     }
 
+    getLastOperation(){
+
+        return this._operation[this._operation.length - 1];
+    }
+
+    isOperator(value){
+
+       return ( ['+', '-', '*', '%', '/'].indexOf(value) > -1);
+
+    }
+
+    setLastOperation(value){
+
+        this._operation[this._operation.length - 1] = value;
+    }
+
+
     addOperation(value){
 
         console.log(this.getLastOperation());

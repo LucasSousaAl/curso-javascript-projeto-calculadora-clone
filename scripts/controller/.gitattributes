@@ -1,5 +1,1 @@
-assets/js/terceiros/* linguist-vendored
-jquery.js linguist-vendored=false
-
-project-docs/* linguist-documentation
-docs/formatter.rb linguist-documentation=false
+* text=auto

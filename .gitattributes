@@ -1,7 +1,2 @@
-* text=auto
-
 * linguist-vendored
 *.html linguist-vendored=false
-
-project-docs/* linguist-documentation
-docs/formatter.rb linguist-documentation=false

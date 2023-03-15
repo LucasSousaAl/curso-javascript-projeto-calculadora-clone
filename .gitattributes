@@ -1,2 +1,2 @@
-* linguist-vendored
-*.javascript linguist-vendored=true
+scripts/* linguist-vendored
+jquery.js linguist-vendored=false
